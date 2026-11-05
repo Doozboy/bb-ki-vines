@@ -33,11 +33,9 @@ html {
 }
 
 body {
-  overflow-x: hidden;
   height: auto;
   font-family: 'IBM Plex Sans', sans-serif;
   background: #f5f2ec;
-  overscroll-behavior-y: none;
   touch-action: pan-y;
 }
 

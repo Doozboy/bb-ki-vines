@@ -386,6 +386,7 @@ video[src] { transform: translateZ(0); -webkit-transform: translateZ(0); }
 .hero-design.mobile-image #text_2 {
   pointer-events: auto;
   cursor: pointer;
+  touch-action: pan-y;
 }
 .hero-design.mobile-image #text_1 > div > div,
 .hero-design.mobile-image #text_2 > div > div {

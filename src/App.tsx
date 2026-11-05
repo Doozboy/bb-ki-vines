@@ -74,7 +74,7 @@ function App() {
               glowColor="rgba(201,168,76,0.3)"
               noHover
               className="mobile-image hero-image-layer fixed overflow-hidden"
-              style={{ inset: 0, width: '100%', height: '100%', zIndex: 11 }}
+              style={{ inset: 0, width: '100%', height: '100%', zIndex: 11, pointerEvents: 'none' }}
             >
               <img src="/mobile/mbme.webp" alt="" decoding="async" fetchPriority="high" className="hc-mobile-figure w-full h-full object-contain" />
             </ClickWrapper>
